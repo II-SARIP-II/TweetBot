@@ -1,0 +1,7 @@
+services:
+  - type: cron
+    name: antifascist-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: "python bot.py"
+    schedule: "0 */6 * * *"  # Toutes les 6 heures
