@@ -3,10 +3,10 @@ import csv
 import random
 import os
 
-api_key = os.getenv("API_KEY")
-api_secret = os.getenv("API_SECRET")
-access_token = os.getenv("ACCESS_TOKEN")
-access_token_secret = os.getenv("ACCESS_SECRET")
+api_key = os.getenv("NfRvEqpn6nB7BbAVawZ7r7eBa")
+api_secret = os.getenv("ol0gueUCp5F4FvOI2IuQQQQZufQCyxBHKjI9yaJ1HzPEd2sZxI")
+access_token = os.getenv("1925570142198452224-I6Px9mavIco11kB9XMeeafzEglgdJh")
+access_token_secret = os.getenv("Y8dYl6HZ6RTntMjcrs40AoLhvKU8Ey8cDaafMalPO4coh")
 
 auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_token_secret)
 api = tweepy.API(auth)
