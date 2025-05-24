@@ -4,7 +4,7 @@ from atproto import Client
 
 # Charger les identifiants depuis les variables d’environnement ou en dur ici
 HANDLE = "united-europe.bsky.social"
-APP_PASSWORD = "bxhv-pcba-c7p5-leza"
+APP_PASSWORD = "You-can't-find-it"
 
 # Init client
 client = Client()
